@@ -1,0 +1,9 @@
+Third-party notices
+
+Python, PyInstaller (including its bootloader exception), Sarvam Python SDK, PyAV, FFmpeg, NumPy and their dependencies are included. Dependency license texts are supplied in the licenses folder and in bundled package metadata.
+
+The FFmpeg libraries in the selected PyAV wheel were built without --enable-gpl or --enable-nonfree. They remain dynamically replaceable DLLs in _internal. FFmpeg source: https://ffmpeg.org/download.html ; PyAV source and wheel build recipes: https://github.com/PyAV-Org/PyAV and https://github.com/PyAV-Org/pyav-wheels .
+
+Application source and pinned build requirements are included in source.
+
+The FFmpeg 8.0.1 runtime reports LGPL version 3 or later. Matching LGPL v3 and GPL v3 texts, its build configuration, and the corresponding upstream source archive are supplied in licenses. The DLLs in _internal are replaceable with compatible modified builds.

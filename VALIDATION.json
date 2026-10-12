@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checks": [
+    "Windows executable present in clean extraction",
+    "Startup API-key menu available",
+    "Release starts without an owner API key",
+    "API key protected by Windows DPAPI",
+    "Imported recording preserved byte-for-byte",
+    "Live Sarvam cloud transcription through extracted executable",
+    "Expected speaker count reaches cloud pipeline",
+    "TXT export retains corrections, speaker labels and separate context",
+    "Portable saved review restores annotations and context without ASR",
+    "Unauthenticated and cross-origin key mutation rejected",
+    "API key absent from browser pages and exports",
+    "Quit shuts down packaged process cleanly",
+    "Protected key persists across restart",
+    "Review persists across restart and changing local port",
+    "Live microphone-note transcription endpoint in extracted executable",
+    "Context retry cache avoids duplicate job"
+  ],
+  "platform": "Windows 11 x64",
+  "version": "1.0.0",
+  "live_cloud_sample_seconds": 52.032,
+  "note": "Private validation data is excluded from distribution.",
+  "final_archive_checks": [
+    "Starts with no owner key",
+    "Saved review restoration on final binary",
+    "WAV source MIME and metadata preserved",
+    "TXT annotation export",
+    "Second launch reuses running instance",
+    "Clean shutdown"
+  ],
+  "ui_checks": [
+    "Context autosave",
+    "Add/remove/undo boxes",
+    "Server persistence",
+    "Portable save"
+  ],
+  "privacy_audit": "Passed: no owner API key or case audio",
+  "startup_visual_check": "Passed"
+}

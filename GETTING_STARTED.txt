@@ -1,0 +1,25 @@
+CallScribe 1.0.0 — Windows x64
+
+1. Extract the entire ZIP into a folder on your computer.
+2. Double-click CallScribe.exe (or Start CallScribe.cmd).
+3. The startup page opens in your default browser. Paste your own Sarvam API key and choose Save key.
+4. Import an audio recording. Set an expected speaker count if you know it, then choose Transcribe.
+5. Open the review. Name the speakers, check the passages, add your context, and edit/add/remove boxes as needed.
+6. Choose More → Export transcript to save a TXT file with speaker names, timestamps, and your context in separate sections. Save review makes an editable HTML copy.
+
+No Python installation is required. Internet access and a Sarvam account with available credits are required for transcription and microphone dictation. The app is free; API usage follows Sarvam's account pricing.
+
+Your API key is protected with Windows DPAPI and stored in your Windows Local AppData\CallScribe folder. Recordings and saved reviews are stored there as well, not in the shared application folder. Keys are never embedded in exports.
+
+To continue later, launch CallScribe again. Reviews are saved inside the tool. To move a review to another computer, save its HTML copy and restore that file in the other person's CallScribe startup page. The exported HTML includes the call audio and context audio; share it only when you intend to share those recordings.
+
+Review HTML copies also allow offline playback, editing, and TXT export. Microphone transcription requires the running app and internet; restore an old review in the app to reconnect it after restarting.
+
+Use Quit on the startup page to stop the tool. Closing the browser tab alone does not stop a cloud job. After an interrupted job, use Resume; existing cloud job identifiers are retained.
+
+Limits: recordings up to two hours and 500 MB; each microphone context note up to ten minutes. Unsupported media or cloud errors are reported without deleting saved audio.
+
+Speaker groups are provisional. Identify people by listening; automated transcripts and labels are not certified. Recording timestamps inferred from filenames are marked as unverified, and unknown dates remain unknown.
+
+API settings: https://dashboard.sarvam.ai/
+Pricing: https://www.sarvam.ai/api-pricing

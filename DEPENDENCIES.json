@@ -1,0 +1,61 @@
+{
+  "application": "CallScribe",
+  "version": "1.0.0",
+  "python": "3.12.14",
+  "platform": "Windows x64",
+  "packages": {
+    "sarvamai": "0.1.37",
+    "av": "16.1.0",
+    "numpy": "2.5.4",
+    "pyinstaller": "6.22.3",
+    "httpx": "0.28.1",
+    "httpcore": "1.0.9",
+    "anyio": "4.15.1",
+    "pydantic": "2.14.1",
+    "pydantic-core": "2.50.1",
+    "certifi": "2026.7.22",
+    "h11": "0.16.0",
+    "idna": "3.20",
+    "typing-extensions": "4.16.0",
+    "typing-inspection": "0.4.4",
+    "annotated-types": "0.8.0",
+    "websockets": "17.2"
+  },
+  "ffmpeg_libraries": {
+    "libavutil": [
+      60,
+      8,
+      100
+    ],
+    "libavcodec": [
+      62,
+      11,
+      100
+    ],
+    "libavformat": [
+      62,
+      3,
+      100
+    ],
+    "libavdevice": [
+      62,
+      1,
+      100
+    ],
+    "libavfilter": [
+      11,
+      4,
+      100
+    ],
+    "libswscale": [
+      9,
+      1,
+      100
+    ],
+    "libswresample": [
+      6,
+      1,
+      100
+    ]
+  }
+}
